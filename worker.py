@@ -1,5 +1,8 @@
 import discord
+from discord.ext.command import Bot
+from discord.ext import commands
 import asyncio
+import time
 
 client = discord.Client()
 
@@ -19,4 +22,4 @@ async def on_message(message):
         client.send_message(message.channel, "World")
 
 
-client.run('NDE5NTMxOTMxNTk2NzUwODU4.DXxkQA.y_ybewiQYtRpo_TPTSn5Qo5Txwk')
+client.run("NDE5NTMxOTMxNTk2NzUwODU4.DXxkQA.y_ybewiQYtRpo_TPTSn5Qo5Txwk")
