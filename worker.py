@@ -50,4 +50,4 @@ async def on_message(message):
         # ------------------------------------------------------------------------------------------
 
         
-CLIENT.run(os.environ.get('TOKEN'))
+CLIENT.run(os.environ.get('TOKEN', True))
