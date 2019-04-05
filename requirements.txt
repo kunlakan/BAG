@@ -11,3 +11,8 @@ crasync
 cr-py
 urban-async
 safygiphy
+google-api-python-client
+oauth2client
+jwt
+google-auth-httplib2 
+google-auth-oauthlib
